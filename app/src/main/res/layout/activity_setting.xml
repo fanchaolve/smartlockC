@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/B7"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_title2" />
+
+
+   
+    
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <include layout="@layout/line_e"/>
+        
+        <LinearLayout
+            android:id="@+id/lin_editpassword"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/editpassword"
+                android:textAppearance="@style/TextAppear.Theme.C16_Size15"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/more"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/line_e"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/lin_editfingerprint"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/editfingerprint"
+                android:textAppearance="@style/TextAppear.Theme.C16_Size15"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/more"/>
+
+
+        </LinearLayout>
+
+
+        <include layout="@layout/line_e"/>
+
+    </LinearLayout>
+
+    
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lin_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/line_e" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/logout"
+            android:textAppearance="@style/TextAppear.Theme.B13_Size17" />
+
+        <include layout="@layout/line_e" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

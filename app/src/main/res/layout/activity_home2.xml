@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/C6"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lin_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_setting"/>
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/iv_saoyisao"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_saoyisao"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_abnormal"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleright"
+            android:textAppearance="@style/TextAppear.Theme.white_Size15"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/suo" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="智能便携锁"
+            android:textAppearance="@style/TextAppear.Theme.C16_Size16" />
+
+        <TextView
+            android:id="@+id/tv_timetotime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="2017-09-21 至 2018-10-21"
+            android:textAppearance="@style/TextAppear.Theme.C14_Size14" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="-7dp"
+                android:background="@drawable/shape_c6" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_dash_line"
+                android:layerType="software"></LinearLayout>
+
+            <TextView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginRight="-7dp"
+                android:background="@drawable/shape_c6" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_jiedian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="已到认证节点，请扫码验证>"
+            android:visibility="invisible"
+            android:textAppearance="@style/TextAppear.Theme.C17_Size16" />
+
+        <RelativeLayout
+            android:id="@+id/rel_password"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_mms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="密码开锁"
+                android:textAppearance="@style/TextAppear.Theme.C19_Size17"
+                />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/tv_mms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="超时更改密码需要人脸验证"
+                android:textAppearance="@style/TextAppear.Theme.C18_Size12"
+                />
+
+            <TextView
+                android:id="@+id/tv_password"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:drawablePadding="6dp"
+                android:drawableRight="@mipmap/more"
+                android:textAppearance="@style/TextAppear.Theme.C16_Size25"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/line_e"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rel_fingerprint"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_zws"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="指纹开锁"
+                android:textAppearance="@style/TextAppear.Theme.C19_Size17"
+                />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/tv_zws"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="超时更改指纹需要人脸验证"
+                android:textAppearance="@style/TextAppear.Theme.C18_Size12"
+                />
+
+            <ImageView
+                android:id="@+id/iv_zw"
+                android:layout_marginRight="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/zhiwen"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/more"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/line_e"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_icS"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_ics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="IC卡开锁"
+                android:textAppearance="@style/TextAppear.Theme.C19_Size17"
+                />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/tv_ics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="将身份证靠在门锁上即可开锁"
+                android:textAppearance="@style/TextAppear.Theme.C18_Size12"
+                />
+
+            <ImageView
+                android:id="@+id/iv_ics"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/iccard"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/more"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="47dp"
+        android:background="@color/C7">
+
+
+        <ImageView
+            android:id="@+id/iv_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:padding="3dp"
+            android:src="@mipmap/kefu" />
+
+
+        <TextView
+            android:id="@+id/tv_serialNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAppearance="@style/TextAppear.Theme.white_Size14"
+            android:text="@string/serino"/>
+
+
+
+        <ImageView
+            android:id="@+id/iv_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="19dp"
+            android:padding="3dp"
+            android:src="@mipmap/tongzhi" />
+
+        <TextView
+            android:id="@+id/iv_tab_red"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/splash_red_dot" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

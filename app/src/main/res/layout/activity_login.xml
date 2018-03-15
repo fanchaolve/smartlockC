@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/image_bg_login"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:src="@mipmap/logosmall" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="26dp"
+            android:text="@string/login_title"
+            android:textAppearance="@style/TextAppear.Theme.B2_Size14" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/shape_login">
+
+
+
+        <com.qeasy.samrtlockb.widget.LoginTelEdit
+            android:id="@+id/et_phone"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:drawablePadding="15dp"
+            android:hint="@string/hintphone"
+            android:inputType="number"
+            android:maxLength="13"
+            android:text=""
+            android:textAppearance="@style/TextAppear.Theme.B2_Size14"
+            android:textColorHint="@color/B5"
+            app:edit_endDrawable="@drawable/shanchu"
+            app:edit_startDrawable="@mipmap/icon_shoujihao" />
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/shape_login">
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:drawableLeft="@mipmap/icon_yanzhengma"
+            android:drawablePadding="15dp"
+            android:hint="验证码"
+            android:inputType="number"
+            android:maxLength="8"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppear.Theme.B2_Size14"
+            android:textColorHint="@color/B5"
+            android:textSize="14sp" />
+
+        <com.qeasy.samrtlockb.widget.CountDownTextView
+            android:id="@+id/tv_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/getVerificationCode"
+            android:textAppearance="@style/TextAppear.Theme.C6_Size14" />
+        
+        <LinearLayout
+            android:layout_toLeftOf="@+id/tv_getcode"
+            android:layout_marginRight="15dp"
+            android:layout_width="1dp"
+            android:layout_centerVertical="true"
+            android:layout_height="25dp"
+            android:background="@color/B3">
+
+        </LinearLayout>
+
+        
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_confim"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/shape_login2"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textAppearance="@style/TextAppear.Theme.white" />
+
+
+</LinearLayout>

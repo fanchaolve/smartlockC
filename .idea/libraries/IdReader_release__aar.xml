@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="IdReader-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/b080d10b8e712fd4db4cf6e7944b45abe85f477c/output/jars/libs/ev_client.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b080d10b8e712fd4db4cf6e7944b45abe85f477c/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b080d10b8e712fd4db4cf6e7944b45abe85f477c/output/jars/libs/ksoap2-android-assembly-2.6.4-jar-with-dependencies.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/b080d10b8e712fd4db4cf6e7944b45abe85f477c/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b080d10b8e712fd4db4cf6e7944b45abe85f477c/output/jars/libs/EXCidcard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

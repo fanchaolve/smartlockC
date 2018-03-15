@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:/Users/workinfo/smartlockB/Android/smartlockC/faceauth/libs/facetracking.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/faceauth/libs/facetracking.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

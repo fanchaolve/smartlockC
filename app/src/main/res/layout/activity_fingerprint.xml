@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/B7"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title2"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/iv_blstate"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_saoma"
+        />
+
+    <TextView
+        android:id="@+id/tv_statememo"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contentbluth"
+        android:textAppearance="@style/TextAppear.Theme.B2_Size15_nostyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fingerprint1"
+        android:textStyle="normal"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@style/TextAppear.Theme.B9_Size13"/>
+
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/white"
+        android:orientation="vertical">
+
+        <include layout="@layout/line_e"/>
+
+
+        <LinearLayout
+            android:id="@+id/lin_fp1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B2_Size15_nostyle"
+                android:text="@string/fp1"/>
+
+            <TextView
+                android:id="@+id/tv_left_fp1"
+                android:layout_marginLeft="4dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B5_Size15"
+                android:text="@string/nofp"/>
+
+
+            <TextView
+                android:id="@+id/tv_right_fp1"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B5_Size15"
+                android:text="@string/lz"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_dj"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/line_e"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_fp2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B2_Size15_nostyle"
+                android:text="@string/fp2"/>
+
+            <TextView
+                android:id="@+id/tv_left_fp2"
+                android:layout_marginLeft="4dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B5_Size15"
+                android:text="@string/nofp"/>
+
+
+            <TextView
+                android:id="@+id/tv_right_fp2"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B5_Size15"
+                android:text="@string/lz"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_dj"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/line_e"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_fp3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B2_Size15_nostyle"
+                android:text="@string/fp3"/>
+
+            <TextView
+                android:id="@+id/tv_left_fp3"
+                android:layout_marginLeft="4dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B5_Size15"
+                android:text="@string/nofp"/>
+
+
+            <TextView
+                android:id="@+id/tv_right_fp3"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppear.Theme.B5_Size15"
+                android:text="@string/lz"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_dj"/>
+
+        </LinearLayout>
+
+
+
+        <include layout="@layout/line_e"/>
+    </LinearLayout>
+
+</LinearLayout>

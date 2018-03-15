@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#088AEC</color>
+    <color name="colorTextBg">#3eaaef</color>
+    <color name="colorUnIndetifyBg">#9a9aff</color>
+    <color name="colorTextSub">#1d825b</color>
+    <color name="c_e9e9e4">#e9e9e4</color>
+    <color name="white">#ffffff</color>
+
+
+    <!-- UI配色 -->
+    <color name="A1">#2dce8f</color>
+
+    <color name="B1">#3684B5</color>
+    <color name="B2">#333333</color>
+    <color name="B3">#CCCCCC</color>
+    <color name="B4">#316281</color>
+    <color name="B5">#AAAAAA</color>
+    <color name="B6">#3684B5</color>
+    <color name="B7">#EAEAF0</color>
+    <color name="B8">#DDDDDD</color>
+    <color name="B9">#666666</color>
+    <color name="B10">#4CC9B0</color>
+    <color name="B11">#3DBA9C</color>
+    <color name="B12">#777777</color>
+    <color name="B13">#EC5B5B</color>
+    <color name="B14">#999999</color>
+    <color name="B15">#000000</color>
+    <color name="B16">#F7F7F7</color>
+    <color name="B17">#222222</color>
+    <color name="B18">#BBBBBB</color>
+    <color name="B19">#555555</color>
+    <color name="B20">#D7D7D7</color>
+    <color name="B21">#E86868</color>
+    <color name="B22">#B8B8B8</color>
+    <color name="B23">#F1F1F1</color>
+    <color name="B24">#000000</color>
+    <color name="B25">#297CE5</color>
+    <color name="B26">#EEEEEE</color>
+    <color name="B27">#53ACA9</color>
+    <color name="B28">#FAFAFA</color>
+
+
+
+    <color name="C6">#64A2F2</color>
+    <color name="C7">#589AEF</color>
+    <color name="C8">#E95050</color>
+    <color name="C9">#5EBDB3</color>
+    <color name="C10">#F7FFFE</color>
+    <color name="C11">#73BAB0</color>
+    <color name="C12">#12C6B3</color>
+    <color name="C13">#F6F6F6</color>
+    <color name="C14">#999999</color>
+    <color name="C15">#F45252</color>
+    <color name="C16">#333333</color>
+    <color name="C17">#E32424</color>
+    <color name="C18">#AAAAAA</color>
+    <color name="C19">#4FB1A7</color>
+    <color name="C20">#666666</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 透明度-->
+
+    <color name="bg_f">#CCffffff</color>
+    <color name="bg_A4">#75a8afac</color>
+    <color name="bg_B2">#B2ffffff</color>
+    <color name="bg_E5">#E5ffffff</color>
+
+
+    <color name="partTranslucent">#39000000</color>
+
+
+    <!-- 常用 -->
+
+
+
+
+
+</resources>

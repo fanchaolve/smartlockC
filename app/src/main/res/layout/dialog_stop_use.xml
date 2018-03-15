@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/shape_white"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="29dp"
+        android:text="确定要将此用户停用吗？"
+        android:textAppearance="@style/TextAppear.Theme.B17_Size16"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="6dp"
+        android:text="停用后用户将移动到历史使用人员列表"
+        android:textAppearance="@style/TextAppear.Theme.B9_Size12"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_stop_lock_person"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textAppearance="@style/TextAppear.Theme.B9_Size16"/>
+
+        <TextView android:id="@+id/tv_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_stop_lock_person1"
+            android:gravity="center"
+            android:text="停用"
+            android:textAppearance="@style/TextAppear.Theme.white_Size16"/>
+
+    </LinearLayout>
+</LinearLayout>

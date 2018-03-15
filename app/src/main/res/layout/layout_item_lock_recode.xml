@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   
+    <RelativeLayout
+        android:paddingTop="6dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/shape_lock_recode">
+
+        <TextView
+            android:id="@+id/tv_nameWithTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="@style/TextAppear.Theme.B17_Size13"/>
+
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IC卡开锁"
+            android:textAppearance="@style/TextAppear.Theme.B14_Size12"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_idcard"
+            android:layout_below="@+id/tv_nameWithTime"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idcardMather"
+            android:textAppearance="@style/TextAppear.Theme.B14_Size12"/>
+
+        <TextView
+            android:id="@+id/tv_tel"
+            android:layout_below="@+id/tv_idcard"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telMather"
+            android:textAppearance="@style/TextAppear.Theme.B14_Size12"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/selected" />
+
+
+        <TextView
+            android:id="@+id/tv_memo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:textAppearance="@style/TextAppear.Theme.C16_Size15"
+            android:visibility="gone" />
+
+
+        <EditText
+            android:id="@+id/et_memo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:background="@null"
+            android:hint="输入其他原因"
+            android:textAppearance="@style/TextAppear.Theme.C16_Size15"
+            android:textColorHint="@color/C18"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp">
+
+        <include layout="@layout/line_e" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

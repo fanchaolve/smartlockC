@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">智能锁C端</string>
+
+    <string name="getVerificationCode">获取验证码</string>
+    <string name="processTime">%1$s秒</string>
+    <string name="confimpay1">请在%1$s时%2$s分%3$s秒内完成支付,逾期将自动取消订单</string>
+    <string name="passworddetail">请输入密码(6-20位数字、字母组合)</string>
+    <string name="snack_exit_once_more">再按一次退出应用</string>
+    <string name="tip_type_not_image">选择的不是图片</string>
+
+    <string name="openDrawerContentDescRes">Navigation View</string>
+    <string name="closeDrawerContentDescRes">Navigation View Closed</string>
+    <string name="image_transition_name">image_transition</string>
+
+
+    <!--智能锁-->
+    <string name="login_title">智能锁管理系统(用户端)</string>
+    <string name="hintphone">手机号</string>
+    <string name="login">登录</string>
+    <string name="lockofnumb">累计开锁次数</string>
+    <string name="numbofuser">当前使用人数</string>
+    <string name="selftesttime">下次自检时间</string>
+    <string name="tomorrow">明天</string>
+    <string name="confim">提交</string>
+    <string name="confim1">确定</string>
+    <string name="restart">重试</string>
+    <string name="please_tempword">请输入新的临时密码</string>
+    <string name="all">全部</string>
+    <string name="using">使用中</string>
+    <string name="stoped">已停用</string>
+    <string name="home_title">智能锁查询管理系统</string>
+    <string name="idcardMather">身份证号：%1$s</string>
+    <string name="telMather">联系方式：%1$s</string>
+    <string name="update1">上传开锁记录</string>
+    <string name="hint1">输入姓名或手机号查找开锁记录</string>
+    <string name="text1">认证的时候需要扫码锁二维码刷脸认证</string>
+    <string name="text2">停用后用户将无法开锁</string>
+    <string name="text3">重置后将清空全部使用记录</string>
+    <string name="rzpd">认证频度</string>
+    <string name="sdksry">设定开锁许可人员</string>
+    <string name="select">请选择</string>
+    <string name="sdlsmm">设定临时密码</string>
+    <string name="szic">设置IC卡开锁</string>
+    <string name="szzwks">设置指纹开锁</string>
+    <string name="stop">停用</string>
+    <string name="czzns">重置智能锁</string>
+    <string name="setting">设置</string>
+    <string name="notice">通知</string>
+    <string name="help1">请完善该锁地址</string>
+
+
+    <string name="end_date">结束时间</string>
+    <string name="start_date">开始时间</string>
+    <string name="select_tip">请选择认证频度</string>
+    <string name="newpassword">新的临时密码</string>
+
+
+
+
+    <string name="stop_use">停用</string>
+    <string name="edit">编辑</string>
+    <string name="use">启用</string>
+    <string name="use_record">使用记录</string>
+    <string name="cancel">取消</string>
+    <string name="set_locker">设定开锁许可人员</string>
+    <string name="add_member">添加人员</string>
+    <string name="edit_member">编辑人员</string>
+    <string name="address_tip">连接锁蓝牙后点击一下定位图标可获取锁地址</string>
+    <string name="save">保存</string>
+    <string name="detailaddress">详细地址</string>
+    <string name="contentbluth">扫码连接蓝牙</string>
+    <string name="bluth_op">连接蓝牙后，在听到提示音后将IC卡放置在门锁的识别区域</string>
+    <string name="ic1">IC卡开锁1</string>
+    <string name="ic2">IC卡开锁2</string>
+    <string name="ic1_type">身份证开锁</string>
+    <string name="ic_pz">配置</string>
+    <string name="icsettitle">IC卡开锁设置</string>
+    <string name="icsetting1">IC卡配置中</string>
+    <string name="icsetting2">请将IC卡放置在门锁的识别区域\n待门锁识别结束后再移开IC卡</string>
+    <string name="fingerprint1">连接蓝牙后，在听到提示音后将手指放置在门锁的指纹识别</string>
+    <string name="setf">设置指纹</string>
+    <string name="fp1">手指1</string>
+    <string name="fp2">手指2</string>
+    <string name="fp3">手指3</string>
+    <string name="nofp">(未录制)</string>
+    <string name="isfp">(已录制)</string>
+    <string name="lz">录制</string>
+    <string name="fingerting">指纹录制中</string>
+    <string name="fingerting2">请将手指放置在门锁的指纹识别区域\n待门锁识别结束后再移开手指</string>
+    <string name="change">更改</string>
+    <string name="timetotime">%1$s 至 %2$s</string>
+    <string name="invalidtoke">您的账号已过期,请重新登录！</string>
+    <string name="authentication1">请用身份证贴靠门锁</string>
+    <string name="authentication2">识别的过程中请不要移动身份证</string>
+    <string name="authentication3">身份验证</string>
+
+
+
+    <!-- c端-->
+    <string name="blopen">请先确保蓝牙已打开</string>
+    <string name="blopenok">蓝牙已打开</string>
+    <string name="auth">立即认证</string>
+    <string name="auth1">输入锁序号或者扫码完成认证过程</string>
+    <string name="titleright">申报异常</string>
+    <string name="logout">退出登录</string>
+    <string name="editpassword">修改开锁密码</string>
+    <string name="editfingerprint">锁指纹录入</string>
+    <string name="editpassword2">修改开锁密码</string>
+    <string name="please_input">请输入</string>
+    <string name="unlock_password">开锁密码</string>
+    <string name="serino">锁序号：%1$s</string>
+
+
+
+
+
+
+</resources>

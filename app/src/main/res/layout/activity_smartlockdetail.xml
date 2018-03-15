@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/B7"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title2"/>
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/icon_greenfangsuo"/>
+
+            <TextView
+                android:id="@+id/tv_state"
+                android:layout_marginRight="18dp"
+                android:text="使用中"
+                android:drawablePadding="3dp"
+                android:drawableLeft="@mipmap/icon_safe"
+                android:layout_alignParentRight="true"
+                android:textAppearance="@style/TextAppear.Theme.B10_Size13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tv_serialNo"
+                android:text="SHP0022134"
+                android:layout_below="@+id/iv_logo"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="@style/TextAppear.Theme.B15_Size16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginBottom="25dp"
+                android:layout_below="@+id/tv_serialNo"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_unlockTimes"
+                        android:text="200000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppear.Theme.B11_Size14"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:text="@string/lockofnumb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppear.Theme.B12_Size12"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_useTimes"
+                        android:text="200000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppear.Theme.B11_Size14"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:text="@string/numbofuser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppear.Theme.B12_Size12"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="2018.09.09"
+                        android:id="@+id/tv_nextDetectionTime"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppear.Theme.B11_Size14"/>
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tv_tomorrow"
+                        android:text="@string/tomorrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppear.Theme.B13_Size14"/>
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:text="@string/selftesttime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppear.Theme.B12_Size12"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+        
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/B16"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/icon_bianji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="@style/TextAppear.Theme.B12_Size12"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/B7"
+        android:layout_height="48dp">
+
+       
+        <EditText
+            android:id="@+id/et_param"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="0dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@mipmap/icon_sousuo"
+            android:drawablePadding="10dp"
+            android:hint="@string/hint1"
+            android:textAppearance="@style/TextAppear.Theme.B2_Size13"
+            android:textColorHint="@color/B18"
+            android:background="@drawable/shape_white"
+            android:layout_height="28dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_rili"/>
+
+    </LinearLayout>
+
+    <com.github.jdsjlzx.recyclerview.LRecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </com.github.jdsjlzx.recyclerview.LRecyclerView>
+
+
+
+
+    <TextView
+        android:id="@+id/tv_confim"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_login2"
+        android:gravity="center"
+        android:text="@string/update1"
+        android:textAppearance="@style/TextAppear.Theme.white" />
+
+
+
+</LinearLayout>

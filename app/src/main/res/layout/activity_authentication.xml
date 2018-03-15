@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C6"
+    android:orientation="vertical">
+
+
+
+
+    <include layout="@layout/layout_title2"/>
+
+
+
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/shuaka"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/authentication1"
+        android:textAppearance="@style/TextAppear.Theme.white_Size20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/authentication2"
+        android:textAppearance="@style/TextAppear.Theme.white_Size17" />
+
+
+</LinearLayout>
