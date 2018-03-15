@@ -14,7 +14,6 @@ import com.qeasy.samrtlockb.activitiy.HomeActivity;
 import com.qeasy.samrtlockb.activitiy.ICSettingActivity;
 import com.qeasy.samrtlockb.activitiy.IcSmartLockActivity;
 import com.qeasy.samrtlockb.activitiy.NoticeActivity;
-import com.qeasy.samrtlockb.activitiy.SetLockerActivity;
 import com.qeasy.samrtlockb.activitiy.SettingActivity;
 import com.qeasy.samrtlockb.activitiy.TemporarypasswordActivity;
 import com.qeasy.samrtlockb.activitiy.UnnormalActivity;
@@ -95,10 +94,6 @@ public class Navigation {
 
     }
 
-    //设定开锁人员
-    public static void showSetLocker(Bundle bundle) {
-        AppManager.getInstance().showActivity(SetLockerActivity.class, bundle);
-    }
 
 
 

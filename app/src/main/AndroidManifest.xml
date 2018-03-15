@@ -207,13 +207,6 @@
             android:windowSoftInputMode="stateAlwaysHidden">
         </activity>
         <activity
-            android:name=".activitiy.SetLockerActivity"
-            android:configChanges="orientation|keyboardHidden|navigation"
-            android:screenOrientation="portrait"
-            android:theme="@style/ACTAppTheme"
-            android:windowSoftInputMode="stateAlwaysHidden">
-        </activity>
-        <activity
             android:name=".activitiy.AddMemberActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
             android:screenOrientation="portrait"
