@@ -239,7 +239,14 @@ public abstract class BaseActivity<P extends BasePresenter, M extends BaseModel>
                             Navigation.showLogin(BaseActivity.this,null);
                             dialog.dismiss();
                         }
-                    }, getString(R.string.confim1)).show();
+                    }, getString(R.string.confim1))
+                    .setmNegativeButtonListener(new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    },getString(R.string.cancel))
+                    .show();
         }
     }
 
